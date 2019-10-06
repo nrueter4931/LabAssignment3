@@ -7,15 +7,15 @@
         <table class="table-one">
             <thead>
                 <tr>
-                    <td>ID</td>
-                    <td>First Name</td>
-                    <td>Last Name</td>
-                    <td>Courses</td>
+                    <td class="Center-Horizontal">ID</td>
+                    <td class="Center-Horizontal">First Name</td>
+                    <td class="Center-Horizontal">Last Name</td>
+                    <td class="Center-Horizontal">Courses</td>
                 </tr>
             </thead>
             <tbody>
                 <tr *ngFor="let student of students">
-                    <td>{{student.id}}</td>
+                    <td class="Center-Horizontal">{{student.id}}</td>
                     <td>{{student.firstName}}</td>
                     <td>{{student.lastName}}</td>
                     <td>{{student.course}}</td>
